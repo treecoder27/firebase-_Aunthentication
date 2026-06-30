@@ -1,17 +1,72 @@
-# firebase_display
+# Flutter Firebase Authentication
 
-A new Flutter project.
+A Flutter application demonstrating Firebase Authentication using email and password. The app allows users to register, log in, maintain their authentication session, and securely log out.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🔐 Email & Password Sign Up
+- 🔑 Email & Password Login
+- 🚪 Secure Logout
+- 💾 Persistent User Session
+- ✅ Form Validation
+- 🔥 Firebase Authentication Integration
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+<img width="497" height="753" alt="signuppp" src="https://github.com/user-attachments/assets/881dc008-fe1b-42e8-a66b-abb59f3a61fa" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="502" height="747" alt="signup" src="https://github.com/user-attachments/assets/dd46cb95-0cd5-4056-b4d8-b108395cbdf0" />
+
+
+## 🛠️ Tech Stack
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Firebase Core
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/treecoder27/firebase-_Aunthentication.git
+```
+
+2. Navigate to the project
+
+```bash
+cd firebase-_Aunthentication
+```
+
+3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+4. Add your Firebase configuration files:
+- `google-services.json` (Android)
+- `GoogleService-Info.plist` (iOS)
+
+5. Run the app
+
+```bash
+flutter run
+```
+
+## 📂 Project Structure
+
+```
+lib/
+├── screens/
+├── services/
+├── widgets/
+└── main.dart
+```
+
+## 👨‍💻 Author
+
+**Jayesh Shinde**
+
+GitHub: https://github.com/treecoder27
